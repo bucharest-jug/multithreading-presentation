@@ -1,7 +1,5 @@
 package example7;
 
-import sun.reflect.generics.reflectiveObjects.NotImplementedException;
-
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.TimeoutException;
@@ -12,7 +10,7 @@ public class CompletableFuture<T> implements java.util.concurrent.Future<T> {
     private Throwable error = null;
 
     public boolean cancel(boolean mayInterruptIfRunning) {
-        throw new NotImplementedException();
+        throw new UnsupportedOperationException();
     }
 
     public boolean isCancelled() {
