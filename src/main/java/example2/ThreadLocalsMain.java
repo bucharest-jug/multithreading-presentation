@@ -2,7 +2,7 @@ package example2;
 
 import java.util.Random;
 
-public class ThreadLocals {
+public class ThreadLocalsMain {
 
     static Random rnd = new Random();
     static synchronized int generateRandom() {

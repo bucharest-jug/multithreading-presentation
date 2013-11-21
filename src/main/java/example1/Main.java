@@ -2,7 +2,7 @@ package example1;
 
 import java.math.BigDecimal;
 
-public class Atomicity {
+public class Main {
     public static Thread createActor(final BankAccount account, final BigDecimal withdrawAmount) {
         Thread th = new Thread(new Runnable() {
             public void run() {

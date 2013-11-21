@@ -4,7 +4,7 @@ import java.util.concurrent.ForkJoinPool;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicInteger;
 
-public class ThreadingPools {
+public class ThreadingPoolsMain {
     public static void main(String[] args) throws InterruptedException {
         ForkJoinPool pool = new ForkJoinPool();
         final AtomicInteger ref = new AtomicInteger(0);
